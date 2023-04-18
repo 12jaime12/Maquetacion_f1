@@ -37,6 +37,9 @@ main {
 main h1,h2{
     font-family: "formula";
 }
+main h1{
+    margin-top: 0.7rem;
+}
 main p{
     margin: 5px;
 }
@@ -80,4 +83,7 @@ footer {
     min-height: 10vh;
     padding: 10px;
     border-top:solid red 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
